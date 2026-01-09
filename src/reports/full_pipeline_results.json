@@ -1,0 +1,32 @@
+{
+  "full_pipeline": {
+    "accuracy": 0.3,
+    "auto_accept_rate": 0.46153846153846156,
+    "error_in_auto_accept": 0.5,
+    "review_rate": 0.5384615384615384,
+    "mean_latency_ms": 3.856656922905061,
+    "cache_hit_rate": 0.0
+  },
+  "semantic_only": {
+    "accuracy": 0.5,
+    "auto_accept_rate": 0.7692307692307693,
+    "error_in_auto_accept": 0.5,
+    "review_rate": 0.0,
+    "mean_latency_ms": 3.7748108465725987,
+    "cache_hit_rate": 0
+  },
+  "wiki_only": {
+    "accuracy": 0,
+    "auto_accept_rate": 0,
+    "error_in_auto_accept": 0,
+    "review_rate": 0,
+    "mean_latency_ms": 0,
+    "cache_hit_rate": 0
+  },
+  "n_claims": 13,
+  "n_true": 5,
+  "n_false": 5,
+  "findings": [
+    "Full pipeline escalated 53.8% to human review"
+  ]
+}

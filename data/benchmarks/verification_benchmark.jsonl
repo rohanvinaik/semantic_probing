@@ -1,0 +1,13 @@
+{"claim": "Paris is the capital of France.", "label": true, "type": "factual"}
+{"claim": "Water freezes at 0 degrees Celsius.", "label": true, "type": "factual"}
+{"claim": "Einstein developed the theory of relativity.", "label": true, "type": "factual"}
+{"claim": "The Earth orbits the Sun.", "label": true, "type": "factual"}
+{"claim": "DNA is a double helix structure.", "label": true, "type": "factual"}
+{"claim": "Paris is the capital of Germany.", "label": false, "type": "factual"}
+{"claim": "Water freezes at 50 degrees Celsius.", "label": false, "type": "factual"}
+{"claim": "Einstein invented the telephone.", "label": false, "type": "factual"}
+{"claim": "The Sun orbits the Earth.", "label": false, "type": "factual"}
+{"claim": "DNA is a triple helix structure.", "label": false, "type": "factual"}
+{"claim": "The best programming language is Python.", "label": null, "type": "ambiguous"}
+{"claim": "Classical music is superior to jazz.", "label": null, "type": "ambiguous"}
+{"claim": "The universe is deterministic.", "label": null, "type": "ambiguous"}

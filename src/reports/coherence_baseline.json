@@ -1,0 +1,12 @@
+{
+  "correct_mean_stability": 1.0,
+  "incorrect_mean_stability": 1.0,
+  "hallucinated_mean_stability": 1.0,
+  "stability_auroc": 0.5,
+  "drift_auroc": 0.5,
+  "optimal_stability_threshold": 1.0,
+  "optimal_drift_threshold": 0.0,
+  "n_correct": 200,
+  "n_incorrect": 200,
+  "n_hallucinated": 200
+}

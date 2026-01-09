@@ -1,7 +1,7 @@
 """Semantic signature analysis."""
 
 from dataclasses import dataclass
-from typing import Dict
+from typing import Dict, Optional
 import numpy as np
 
 from ..encoding import SparseVector
@@ -29,7 +29,10 @@ class SemanticSignature:
 class SignatureAnalyzer:
     """Analyzes semantic signatures."""
     
-    def __init__(self, probe: PrimitiveProbe):
+    def __init__(self, probe: Optional[PrimitiveProbe] = None):
+        if probe is None:
+            from ..probes.primitives import PrimitiveProbe
+            probe = PrimitiveProbe()
         self.probe = probe
         
     def compute_signature(self, vector: SparseVector) -> SemanticSignature:
